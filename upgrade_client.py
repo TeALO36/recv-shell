@@ -35,7 +35,7 @@ def handle_command(client_socket, command):
 
 
 def stream_camera():
-    server_ip = 'arthonetwork.fr'  # Laisser '0.0.0.0' pour accepter toutes les connexions
+    server_ip = 'ip'  # Laisser '0.0.0.0' pour accepter toutes les connexions
     server_port = 670
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((server_ip, server_port))
